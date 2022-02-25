@@ -1,0 +1,87 @@
+@import 'colors';
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    .top {
+        // width: 100vh;
+        display: flex;
+        justify-content: space-between;
+        background-color: $darkBlue;
+        padding: 5px 215px;
+        
+        button {
+            display: flex;       
+            border: none;
+            background: transparent;
+            align-items: center;
+            cursor: pointer;          
+        }
+      
+        div:last-child {
+            display: flex; 
+            justify-content: flex-end;
+            gap: 45px;
+        }
+
+        p {
+            padding: 0px 15px;
+            font-size: 15px;
+            color: $white;  
+        }
+
+        p:hover {
+            color: $green;
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 115px;
+        border: 1px solid black;
+        margin: 0 auto;
+        padding: 30px 0px;
+        
+        li a {
+            text-decoration: none;
+            color: $darkBlue;
+        }
+
+        li a:hover{
+            color: $green;
+        }
+    } 
+
+    .hero {
+        background-image: url(/images/hero/cropping-image-folded-male-hands-one-hand-with-wa-2558X450.jpg);
+        height: 450px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        div {
+            width: 980px;
+        }
+
+
+        h1 {
+            color: $white;
+            font-size: 45px;
+            justify-content: center;
+            margin-top: 125px;
+        }
+    
+
+    }
+
+
+
+
+
+
+ 
+}

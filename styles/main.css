@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+body .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #243143;
+  padding: 5px 215px;
+}
+
+body .top button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  background: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+body .top div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 45px;
+}
+
+body .top p {
+  padding: 0px 15px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+body .top p:hover {
+  color: #66bb6a;
+}
+
+body ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 115px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+body ul li a {
+  text-decoration: none;
+  color: #243143;
+}
+
+body ul li a:hover {
+  color: #66bb6a;
+}
+
+body .hero {
+  background-image: url(/images/hero/cropping-image-folded-male-hands-one-hand-with-wa-2558X450.jpg);
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .hero div {
+  width: 980px;
+}
+
+body .hero h1 {
+  color: #ffffff;
+  font-size: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 125px;
+}
+/*# sourceMappingURL=main.css.map */
